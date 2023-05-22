@@ -1,0 +1,76 @@
+/* Button.css */
+.button {
+  display: inline-block;
+  padding: 8px 16px;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button.big {
+  font-size: 16px;
+}
+
+.button.small {
+  font-size: 12px;
+}
+
+/* Checkbox.css */
+.checkbox {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.checkbox input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+/* TodoRow.css */
+.todo-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px;
+  transition: background-color 0.3s;
+}
+
+.todo-row:hover {
+  background-color: #f2f2f2;
+}
+
+/* App.css */
+.app {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+
+}
+
+.add-task {
+  display: flex;
+  margin-bottom: 16px;
+}
+
+.add-task input[type="text"] {
+  flex-grow: 1;
+  padding: 8px;
+  border: 1px solid #efe9e9;
+  border-radius: 4px;
+  margin-right: 8px;
+}
+
+.add-task button {
+  padding: 8px 16px;
+  border: none;
+  background-color: #b573e7;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-task button:hover {
+  background-color: #7b00d9;
+}
+
